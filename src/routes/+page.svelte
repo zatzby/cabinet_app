@@ -41,4 +41,8 @@
     <p><a href="/order">Order</a> parts and supplies.</p>
 
     <p><a href="/upload">Upload</a> files.</p>
+
+    <p>View shop workflow schedules.</p>
+
+    <p>Ask questions and communicate with your team.</p>
 </div>
