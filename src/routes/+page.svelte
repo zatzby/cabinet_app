@@ -21,7 +21,8 @@
     //                 ' unstoppable.',
     //                 ' a community.',
     //                 ' evolving.',
-    //                 ' customm',
+    //                 ' makers.'
+    //                 ' custom',
     //             ],
     //             typeSpeed: 75,
     //             backSpeed: 25,
