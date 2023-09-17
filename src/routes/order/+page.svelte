@@ -1,16 +1,13 @@
 <script lang='ts'>
-    import { orderLinks } from "$lib/data/order";
+    // add in import ts data file for job data
+    
 </script>
 
 <h1>Order parts and supplies:</h1>
 
-{#each orderLinks as linkList}
-    <h2>{linkList.title}</h2>
-    <ul>
-        {#each linkList.links as link}
-        <li>
-            <a href={link.url} target="_blank">{link.title}</a> &ndash; {link.description}
-        </li>
-        {/each}
-    </ul>
-{/each}
+<h2>Select job below:</h2>
+<ul>
+    <li>Job 1</li>
+    <li>Job 2</li>
+    <li>Job 3</li>
+</ul>
