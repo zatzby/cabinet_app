@@ -34,7 +34,7 @@
 </script>
 
 <!-- <h1 class="flex flex-col md:flex-row"><span>We are...</span><span><span id="typewriter" class="text-purple-700"></span></span></h1> -->
-<h2>This application has been created to assist with the following tasks:</h2>
+<h2>Choose a resource from below:</h2>
 <div>
     <p>View <a href="/jobfiles">job files</a>.</p>
     
@@ -44,6 +44,8 @@
 
     <p>View machinery <a href="/guides">guides</a>.</p>
     
+    <p><a href="/chat">Chat</a> with coworkers.</p>
+
 </div>
 
 

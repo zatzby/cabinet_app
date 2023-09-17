@@ -3,7 +3,7 @@
 </script>
 
 <h1>View job paperwork</h1>
-<h3>FILLER: BUTTON TO ADD NEW JOB PROJECT</h3>
+
 
 {#each jobfilesLinks as linkList}
     <h2>{linkList.title}</h2>
