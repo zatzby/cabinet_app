@@ -21,8 +21,7 @@
     //                 ' unstoppable.',
     //                 ' a community.',
     //                 ' evolving.',
-    //                 ' makers.'
-    //                 ' custom',
+    //                 ' customm',
     //             ],
     //             typeSpeed: 75,
     //             backSpeed: 25,
@@ -42,4 +41,9 @@
     <p><a href="/order">Order</a> parts and supplies.</p>
 
     <p><a href="/upload">Upload</a> files.</p>
+
+    <p>View machinery <a href="/guides">guides</a>.</p>
+    
 </div>
+
+

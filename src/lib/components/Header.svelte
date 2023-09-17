@@ -10,7 +10,10 @@
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('jobfiles') ? 'active' : ''}" href="/jobfiles">Job Files</a>
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('order') ? 'active' : ''}" href="/order">Order</a>
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('upload') ? 'active' : ''}" href="/upload">Upload</a>
+            <a class="navLink no-underline md:text-xl font-semibold
+            {$page.url.pathname.includes('upload') ? 'active' : ''}"
+            href="/guides">Guides</a>
         </div>
-        <ProfileMenu on:logout on:login />
+        <!-- <ProfileMenu on:logout on:login /> -->
     </div>
 </div>
