@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>ShopApp Sandbox</h1>
+
+    <h2 class="category">Conversion</h2>
+    <div class="converter-container">
+      <div class="converter">
+        <h2>Convert inches to mm</h2>
+        <input type="number" id="inchesInput" placeholder="Enter inches" />
+        <button onclick="convertToMM()">Convert</button>
+        <p id="result"></p>
+      </div>
+
+      <div class="converter">
+        <h2>Convert mm to inches</h2>
+        <input type="number" id="mmInput" placeholder="Enter mm" />
+        <button onclick="convertToInches()">Convert</button>
+        <p id="resultMM"></p>
+      </div>
+    </div>
+
+    <h2 class="category">Pickup List Creator</h2>
+    <div class="list-container">
+      <input type="text" id="listName" placeholder="List Name" />
+      <input type="text" id="newItem" placeholder="New Item" />
+      <button onclick="addItem()">Add Item</button>
+      <button onclick="saveList()">Save List</button>
+      <button onclick="clearList()">Clear List</button>
+      <button onclick="deleteList()">Delete List</button>
+      <ul id="itemList"></ul>
+    </div>
+
+    <div class="list-container">
+      <h2 class="category">Saved Lists</h2>
+      <ul id="savedLists"></ul>
+    </div>
+
+    <script src="convert.js"></script>
+    <script src="list.js"></script>
+    <footer>Built with grit and stupidity</footer>
+  </body>
+</html>
